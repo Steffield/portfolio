@@ -93,7 +93,7 @@ h1 {
 }
 
   
-img {
+.img-responsive {
     float: left;
     padding: 40px;
 }
@@ -162,18 +162,86 @@ input {
     text-align: left;
 }
 
-.Projects {
+.projects {
     width: 960px;
     height: 1000px;
     background-color: white;
+    border-top: 2px solid #dddddd;
 }
-.links img {
-    /* position: relative; */
+
+link img {
+    width: 350px;
+    height: 250px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 { 
     width: 350px;
     height: 250px;
     z-index: 1;
+    position: relative;
+    margin: 20px;
+    float: left;
 }
-#pic1 {
+
+.banner1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 350px;
+    margin:40px;
+    top:50%;
+    z-index:2;
+}
+
+
+.banner2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 350px;
+    margin:40px;
+    top:50%;
+    z-index:2;
+}
+
+
+.banner3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 350px;
+    margin:40px;
+    top:50%;
+    z-index:2;
+}
+
+
+.banner4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 350px;
+    margin:40px;
+    top:50%;
+    z-index:2;
+}
+
+
+
+.banner5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 350px;
+    margin:40px;
+    top:50%;
+    z-index:2;
+}
+/* #pic1 { 
     position:relative;
 }
 .box1 {
@@ -183,7 +251,7 @@ input {
     width: 350px;
     height: 40px;
     z-index:2;
-    /* left:20px; */
+    /* left:20px; 
 }
 
 .box2 {
@@ -197,4 +265,4 @@ input {
     
 
 
-}
+ } */
