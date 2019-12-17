@@ -2,55 +2,39 @@
 <html>
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
-    <div style="background-image:url('https://www.designbolts.com/wp-content/uploads/2012/12/Grey-Jean-White-Seamless-Patterns-For-Website-Backgrounds.jpg');">
+  <div style="background-image:url('https://www.designbolts.com/wp-content/uploads/2012/12/Grey-Jean-White-Seamless-Patterns-For-Website-Backgrounds.jpg');">
   <div class= "wrapper">
 
     
     <header>
-      <section class="header-text">
-        <section class="left">
-            <h1>Stephanie Lebby</h1>
-        </section>
-        <section class="right">
-            <a href="#"> About</a>
-            <a href="#"> Portfolio</a>
-            <a href="#"> Contact</a>
-        </section>
+      <section class="container">
+        <a class= "left" href="index.html" style="text-decoration: none">Stephanie Lebby</a>
+        <nav>
+            <a href="index.html" style="text-decoration: none"> About</a>
+            <a href="portfolio.html" style="text-decoration: none"> Portfolio</a>
+            <a href="contact.html" style="text-decoration: none"> Contact</a>
+        </nav>
       </section>
     </header>
 
-    <section class="main">
+    <main>
         
-        <div class="container">
+        <section class="container2">
+            <h1> About Me </h1>
+            <img class="img-responsive" src="assets/images/youngSteffi.jpeg" width="230px" height="230px">
+            <p>My name is Stephanie Lebby and I am an aspiring full-stack web developer leveraging a background in human communication sciences. In the past, I have worked in hospitals, schools, private practices and universities as speech language pathologist, consultant, educator, lecturer and research assistant. My expertise and research area at that time were in the area of literacy acquisition. During my academic career, I was able to gain experience in using SPSS, SAS and R for data anlysis and to design and present lectures in different areas of speech, language and education.</p>
+            <p>I am very excited about creating things that make a difference and eager to combine web development skills with my vast knowledge in communication, literacy and education in the future.  </p>
+            <p>As a German native who did her bachelor’s degree in Germany, her master’s degree in England, 30 credits towards a PhD in the US, and traveled the world for a period of time, I offer an open mind, interest and knowledge about different cultures, countries, and languages and am extremely adaptable to new environments and challenges. I love spending time outdoors, traveling or eating Italian food. </p>      
+    </main>
 
-              <div class="About">
-                <h1 id="about-me">About Me</h1>
-            </div>
-            <div class="content">
-
-                <img class="img-responsive" src="data:image/jpeg;base64,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">
-                <p>Aenean non lobortis ante, ut dignissim metus. Cras imperdiet nulla at diam condimentum viverra. Etiam faucibus accumsan felis, sed semper tellus consequat eget. Donec maximus posuere laoreet. Cras dictum justo vitae quam consectetur, quis tristique est rutrum. Mauris eros lacus, fringilla id metus vitae, finibus varius nunc. Sed imperdiet ultrices arcu et congue. In ac nibh cursus tellus auctor posuere ut at ipsum. Integer sit amet purus lacus. Pellentesque felis est, lacinia ut finibus nec, interdum et ex. Donec quam tortor, malesuada id blandit at, sagittis eu arcu. Nulla facilisi.
-
-                Duis tincidunt tincidunt diam vel dictum. Morbi tempus tellus vel pellentesque faucibus. Praesent bibendum quam ac nulla feugiat lobortis. Donec placerat bibendum purus, vel interdum enim imperdiet eu. Cras sed neque et urna condimentum ullamcorper. Fusce consectetur dui at mauris hendrerit, at pharetra ante fringilla. Praesent tincidunt id ipsum vitae dapibus. Nullam eget nibh sit amet nisi interdum bibendum. In at convallis odio. Nam in lacinia tortor, in finibus ante. Pellentesque quis lobortis velit. Sed vitae porttitor neque. Mauris venenatis a ipsum id vulputate.
-            
-                Etiam ultricies justo et odio euismod porta. Nulla orci risus, sollicitudin nec vehicula convallis, condimentum sed tortor. Maecenas ante lacus, vehicula sit amet elementum ut, finibus ac neque. Curabitur pretium libero nec tortor commodo malesuada. Nunc faucibus eleifend risus vitae bibendum. Cras ac sem nulla. Curabitur commodo molestie velit. In at tristique risus, eget tempus nulla. Suspendisse at velit justo.
-            
-                Ut vulputate risus venenatis quam porta, eu ultricies felis iaculis. Nulla et imperdiet neque, eget sagittis lectus. Aliquam tempus enim nec sem bibendum tincidunt. Vestibulum consectetur condimentum sapien at ullamcorper. Donec ut diam non nibh finibus finibus. Nam vehicula rhoncus turpis et venenatis. Etiam tristique nibh eget libero efficitur, ac tristique dui sodales. Praesent quis auctor quam. Curabitur sagittis purus sed finibus feugiat. Suspendisse a dui nibh. Sed auctor enim eget mauris pretium, vel rutrum lectus ultricies.
-            
-                Mauris dictum mauris lorem, et aliquam nulla feugiat in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse hendrerit mi nisi, a feugiat sem vestibulum quis. Nullam eget felis sagittis, semper odio eu, suscipit eros. Aenean bibendum sagittis ipsum, nec tempus erat. Duis eu nisl eu leo rutrum fringilla. Vivamus aliquam cursus neque, eget rhoncus nibh accumsan sed. Vestibulum a nulla ac metus sollicitudin blandit. Donec at libero at urna bibendum ultricies non sit amet est. Phasellus vel eros hendrerit, rhoncus dolor id, tempus nibh. Donec non nibh nisl. Quisque eget fringilla urna. Suspendisse sed ex tortor. Nullam ut risus eros. Donec nibh justo, facilisis ac fringilla vitae, aliquet rhoncus magna. Donec tempus neque id sapien sodales luctus eget ac augue.</p>
-            </div>
-        </div>
-        </section>
-     <div class="push"></div>
+    <div class="push"></div>
     </div>
 
-    <footer class="footer">
-        <div>
-            <h5>Copyright</h5>
-        </div>
+    <footer>
+        <section class="container"> Copyright &copy</section>
     </footer>
     
 </body>
