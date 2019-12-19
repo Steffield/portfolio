@@ -1,67 +1,59 @@
+* {
+    box-sizing: border-box;
+}
 
-html, 
 body {
-    background-image: "assets/images/Background-pattern.jpg";
-    height: 100%;
     margin: 0;
+    padding: 0;
+    background-color: #ececec;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -50px;
+    margin-bottom: -60px;
 }
 
 footer,
 .push {
-    height: 50px;
+    height: 70px;
 }
 
 header {
     background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    border-bottom: 2px solid #dedede;
+    height: 90px;
+    margin-bottom: 40px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-
-.container {
-    width: 960px;
-    margin: 0 auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-h1 {
-    border-bottom: 2px solid #dddddd;
-    color: #4aaaa5;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 30px 30px 30px 50px;
-    text-align: left;  
-    margin: 0;
-}
 .left {
+    float: left;
     background-color: #4aaaa5;
-    color: white;
-    display: inline-block;
-    padding: 25px;
-    font-size: 40px;
+    color: #fff;
+    padding: 22px 15px 0 15px;
+    font-size: 36px;
+    font-weight: bold;
+    height:88px;
+    text-decoration: none;
+    text-align: center;
+
 }
 
 nav {
     float: right;
-    display: inline-block;
-    padding: 20px;
-    color: black;
-    font-size: 20px;
+    padding: 34px 10px 0 10px;
+    font-size: 16px;
+    font-family: Quicksand, sans-serif;
 }
 
 nav a {
-    float: left;
-    color: #777777;
-    text-align: center;
-    padding: 14px 16px;
+    color: #666;
+    padding: 2px 20px;
     text-decoration: none;
-    font-size: 18px;
-    border-right: 1px solid #777777;
+    border-right: 1px solid #666;
+    
 }
   
 nav a:hover {
@@ -75,62 +67,80 @@ nav a.active {
   }
 
 nav a:last-child { 
-    border-right: 0
+    border-right: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;  
+}
+
+.main-container {
+    padding: 30px;
+    background-color: #fff;
+    height: calc(100vh - 210px);
+    border: 1px solid #dedede;
+    overflow: auto;
+    font-family: Quicksand, sans-serif;
+}
+
+.main-container h1 {
+    border-bottom: 2px solid #dedede;
+    color: #4aaaa5;
+    font-size: 32px;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+
+.main-container img {
+    float: left;
+    margin: 20px 30px 10px 10px;
+}
+
+.main-container p {
+    line-height: 30px;
+    font-size: 18px;
+    color: #777777;  
+    padding: 10px;  
 }
 
 main {
-    width: 960px;
-    margin: 40px auto 40px auto;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-
+    min-height: calc(100vh -90px);
+    margin: auto auto 20px auto;
 }
 
-/*.container2 {
-    color: #4aaaa5;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px 20px 20px 50px;
-    text-align: left;  
-}*/
-
-.img-responsive {
-    float: left;
-    padding: 40px 40px 20px 40px;
-}
-
-p {
-    line-height: 1.5;
-    font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
-    padding: 20px 40px 20px 40px;
-    text-align: justify;
-    color: #777777;    
-}
 
 /*sticky footer, wrapper is up top*/
 footer {
     width: 100%;
     text-align: center;
-    padding: 10px;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 10px;
+    background-color: #555;
+    border-top: 6px solid #4aaaa5;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    height: 50px;
+    padding: 20px 0;
 }
+
+
 /* for contact html*/
-.Forms {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
+form {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 2;
     color: #777777;
-    padding: 0 20px 20px 20px;
+    padding: 10px 20px;
+    font-weight: normal;
 }
 
 #contact {
     color: #4aaaa5;
     font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Ubuntu', sans-serif;
     padding: 20px 20px 20px 50px;
     text-align: left;
 }
@@ -138,21 +148,25 @@ footer {
 input {
     font-size: 16px;
     padding: 10px;
-    width: 900px;
+    width: 870px;
+    color: #DCDCDC;
 
 }
-#message {
+.message {
     font-size: 16px;
     padding: 10px;
-    width: 900px;
+    width: 870px;
     height: 100px;
+    color: #DCDCDC;
 
 }
 
-.submit {
-    width: 70px;
+button {
+    width: 100px;
+    height: 40px;
     background-color: #4aaaa5;
     color: white;
+    font-size: 18px;
 
 }
 
@@ -160,7 +174,6 @@ input {
 #portfolio {
     color: #4aaaa5;
     font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px 20px 20px 50px;
     text-align: left;
 }
@@ -173,7 +186,7 @@ input {
 .projects img {
     width: 350px;
     height: 250px;
-    padding:20px;
+    /*padding:20px;*/
 }
 
 .p1,
@@ -198,15 +211,19 @@ input {
     background-color: #4aaaa5;
     height: 80px;
     width: 350px;
-    margin:20px;
+    margin:10px;
     top:55%;
     z-index:2;
+    padding: 10px;
+    
 }
 
 h3 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
+    padding: 10px;
+    font-family: Quicksand, sans-serif;
     /* padding: 5px; */
 }
