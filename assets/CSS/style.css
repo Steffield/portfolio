@@ -198,7 +198,6 @@ button:active {
 .projects img {
     width: 350px;
     height: 250px;
-    /*padding:20px;*/
 }
 
 .p1,
@@ -206,8 +205,6 @@ button:active {
 .p3,
 .p4,
 .p5 { 
-    /*width: 350px;
-    height: 250px;*/
     z-index: 1;
     position: relative;
     margin: 20px;
@@ -237,5 +234,5 @@ h3 {
     text-align: center;
     padding: 10px;
     font-family: Quicksand, sans-serif;
-    /* padding: 5px; */
+    
 }
