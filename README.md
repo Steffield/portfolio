@@ -1,8 +1,6 @@
 # portfolio
-First version of index and contact page
+First webpage ever created.
 
-Needed fixes in index.html: length of borders in navbar
-Needed fixes in contact: button
-Needed fixes in Portfolio
+This is the portfolio page version from 12.19.2019 with placeholders for future projects and future responsive contact forms. Used stylesheets are reset.css, style.css and google fonts, and bootstrap will be added in the future and might change the future design of the page and will improve mobile-responsiveness. 
 
-Needed fixes in css file: border length under header before content, borders between navbar items, check fonts, submit button
+A pdf template was provided to create this page and was followed apart from the font and some colors. 

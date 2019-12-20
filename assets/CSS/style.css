@@ -58,12 +58,12 @@ nav a {
   
 nav a:hover {
     background-color: #4aaaa5;
-    color: black;
+    color: white;
   }
   
 nav a.active {
     background-color: #4aaaa5;
-    color: red;
+    color: gray;
   }
 
 nav a:last-child { 
@@ -168,6 +168,18 @@ button {
     color: white;
     font-size: 18px;
 
+}
+
+button:hover {
+    background-color: pink;
+}
+
+button:focus {
+    background-color: #4aaaa4;
+}
+
+button:active {
+    background-color: #4aaaa5;
 }
 
 /* portfolio.html*/
